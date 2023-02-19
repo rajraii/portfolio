@@ -55,7 +55,7 @@ const Header = () => {
         <div className={`${classes.nav__wrapper}`}>
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
-            <Image src={Logo} style={{background: 'transparent', width: '100%', height: '100%'}}/>
+            <Image src={Logo} style={{background: 'transparent', width: '100%', height: '100%'}} alt='headerimg'/>
           </div>
 
           {/* ========= nav menu =========== */}

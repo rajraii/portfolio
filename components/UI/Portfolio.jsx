@@ -1,27 +1,27 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "reactstrap";
-import SectionSubtitle from "./SectionSubtitle";
+import React, { useEffect, useState } from "react";
+import { Col, Container, Row } from "reactstrap";
 import classes from "../../styles/portfolio.module.css";
 import PortfolioItem from "./PortfolioItem";
+import SectionSubtitle from "./SectionSubtitle";
 
 import portfolioData from "../data/portfolio";
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("Mobile App");
+  const [filter, setFilter] = useState("frontend");
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Mobile App") {
+    if (filter === "frontend") {
       const filteredData = portfolioData.filter(
-        (item) => item.category === filter
+        (item) => item.category[0] === filter || item.category[1] === filter
       );
 
       setData(filteredData);
     }
 
-    if (filter === "Web Design") {
+    if (filter === "full-stack") {
       const filteredData = portfolioData.filter(
-        (item) => item.category === filter
+        (item) => item.category[0] === filter || item.category[1] === filter
       );
 
       setData(filteredData);
@@ -29,7 +29,6 @@ const Portfolio = () => {
   }, [filter]);
 
   const active = `${classes.tab__btn__active}`;
-
   return (
     <section id="portfolio">
       <Container>
@@ -43,19 +42,19 @@ const Portfolio = () => {
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={` ${
-                  filter === "Mobile App" ? active : ""
+                  filter === "frontend" ? active : ""
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Mobile App")}
+                onClick={() => setFilter("frontend")}
               >
                 Mobile App
               </button>
               <button
                 className={`${
-                  filter === "Web Design" ? active : ""
+                  filter === "full-stack" ? active : ""
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Web Design")}
+                onClick={() => setFilter("full-stack")}
               >
-                Web Design
+                Full Stack
               </button>
             </div>
           </Col>

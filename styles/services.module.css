@@ -1,3 +1,8 @@
+.skills_icon {
+  font-size: 1.2103rem;
+  text-transform: capitalize;
+}
+
 .services__container {
   display: flex;
   align-items: center;
@@ -5,6 +10,11 @@
 }
 
 .about__icon i {
+  font-size: 1.3rem;
+  color: #01d293;
+}
+.about__icon {
+  font-size: 1.3rem;
   color: #01d293;
 }
 

@@ -14,9 +14,9 @@ const Contact = () => {
             <SectionSubtitle subtitle="Contact me" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              beatae ratione iusto cum. Doloremque suscipit eius provident error
-              labore est reprehenderit, exercitationem corrupti earum deleniti!
+              Hey visitor, Nice to have you here. Please drop a mail for
+              buiseness synergies or if you wannt to have a chill conversation
+              on novels ; {")"} And i will get back to you shortly.
             </p>
 
             <ul className={`${classes.contact__info__list}`}>
@@ -24,38 +24,29 @@ const Contact = () => {
                 <span>
                   <i className="ri-map-pin-line"></i>
                 </span>
-                <p>Sylhet - Bangladesh</p>
+                <p>Delhi - India</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p>muhib5532@gmail.com</p>
+                <p>rajrai.dv@gmail.com</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+088123456789</p>
+                <p>9015939949</p>
               </li>
             </ul>
 
             <div className={`${classes.social__links}`}>
-              <Link href="#">
-                <i className="ri-youtube-line"></i>
-              </Link>
-              <Link href="#">
+              <a href="https://github.com/rajraii" target={"_blank"} rel='noreferrer'>
                 <i className="ri-github-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-facebook-line"></i>
-              </Link>
-              <Link href="#">
+              </a>
+              <a href="https://www.linkedin.com/in/rajraii/" target={"_blank"} rel='noreferrer'>
                 <i className="ri-linkedin-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-instagram-line"></i>
-              </Link>
+              </a>
             </div>
           </Col>
 

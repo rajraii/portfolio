@@ -1,60 +1,61 @@
 const portfolio = [
   {
     id: "01",
-    title: "Transportation App",
-    des: "The AA is the most trusted brand in the UK. After founding in 1905, it quickly became renowned for its expertise and commitment to customers, with its services covering car insurance, driving lessons, loans, motoring advice, and breakdown assistance.",
-    img: "/images/portfolio-01.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "02",
-    title: "Workout Tracker App",
-    des: "The end result meant MSM have a bank of almost infinitive possibilities driven from the building blocks to drive dynamic content and ensure the brands quality was reflected in the look and build to their customer database.",
-    img: "/images/portfolio-02.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
-
-  {
-    id: "03",
-    title: "Fashion Shopping App",
-    des: "By collating the automation flow and visuals for all emails across all customer journey points we created a single overview of all unique emails across the company, from here we undertook an exercise based on and breakdown assistance.",
-    img: "/images/portfolio-03.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    title: "Shop99 -Food Delivery",
+    des: "A two-view application Admin User with React/Redux on the frontend and Firebase on the backend that allowed users to order their favorite food with a personal cart.",
+    img: "/images/project-1.png",
+    category: ["frontend", "full-stack"],
+    keyword: ["React", "Redux", "Tailwidind", "App", "UI-UX"],
+    liveUrl: "https://shop-99.netlify.app/",
   },
 
   {
     id: "04",
-    title: "Fashion Shopping App",
-    img: "/images/portfolio-04.jpg",
-    category: "Mobile App",
+    title: "Kisan Greh",
+    img: "/images/project-4.png",
+    des: "Interactive Website that provides features like Crop prediction, Weather Prediction, Pest Prediction, Fertilizer Prediction, and Region wise Market Stats",
+    category: ["frontend", "full-stack"],
+    keyword: ["React", "UI-UX"],
+    liveUrl: "https://github.com/rajraii/Kisan",
+  },
+
+  {
+    id: "02",
+    title: "PubLive Gallery",
+    des: "Live Gallery app with Drag and drop functionality",
+    img: "/images/project-2.png",
+    category: ["frontend", "full-stack"],
+    keyword: ["React", "Context APi", "Tailwind", "firebase", "DnD"],
+    liveUrl: "https://publive-gallery.netlify.app/",
+  },
+
+  {
+    id: "03",
+    title: "Movie Mania",
+    des: "User-friendly interface for movie recommendations to easily navigate and track their favorite movies with real-time data updates.",
+    img: "/images/portfolio-3.png",
+    category: ["frontend"],
     keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    liveUrl: "https://tender-goldstine-4e22bb.netlify.app/",
   },
 
   {
     id: "05",
-    title: "Furniture Shopping App",
-    img: "/images/portfolio-05.jpg",
-    category: "Mobile App",
+    title: "Fun with Avatar ",
+    img: "/images/project-5.png",
+    category: ["frontend"],
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
   },
 
-  {
-    id: "06",
-    title: "Travel  App",
-    img: "/images/portfolio-06.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
+  // {
+  //   id: "06",
+  //   title: "Travel  App",
+  //   img: "",
+  //   category: ["frontend"],
+  //   keyword: ["Mobile", "App", "UI-UX"],
+  //   liveUrl: "#",
+  // },
 
   {
     id: "07",

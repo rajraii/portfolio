@@ -148,7 +148,6 @@
   .hero__img {
     display: none !important;
   }
-
   .hero__skills {
     left: 15%;
   }
@@ -159,10 +158,21 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .hero__img {
+    display: flex !important;
+  }
+  .hero__grid{
+    flex-direction: column-reverse;
+  }
+
   .hero__skills {
     display: none;
   }
   .hero__experience {
     display: none !important;
+  }
+  .hero__img img{
+    width: 90%!important;
+    height: 96%!important;
   }
 }

@@ -21,13 +21,14 @@ const About = () => {
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
-            I am a self-taught frontend web developer from an engineering background. 
-            Through my past professional experiences, I can balance the needs of users 
-            and businesses to understand their challenges and how I can contribute as a 
-            developer to solving these challenges. I am able to listen to clients on what 
-            their needs are, and work together to create a lasting solution. My experience 
-            working with diverse individuals from different backgrounds has imbued me with 
-            adaptability and flexibility in the workplace.
+              I am a software developer with Bachelor of Technology. Because of
+              my previous professional experiences, I am able to balance the
+              needs of customers and businesses to understand their difficulties
+              and how I can help as a developer to solve them. I am able to hear
+              what clients need and work with them to find a long-lasting
+              solution. I have adaptation and flexibility in the workplace
+              thanks to my experience dealing with varied people from various
+              backgrounds.
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -45,7 +46,6 @@ const About = () => {
                   </span>
                   Search A Lot
                 </h6>
-                
               </div>
 
               <div>
@@ -63,11 +63,8 @@ const About = () => {
                   High Quality
                 </h6>
               </div>
-
             </div>
           </Col>
-
-          
         </Row>
       </Container>
     </section>

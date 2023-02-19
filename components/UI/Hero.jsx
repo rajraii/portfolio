@@ -17,14 +17,14 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m Raj Rai</h2>
               <h5 className="mb-4">Software Developer Engineer</h5>
               <p>
-                "Fueled by a passion for creating seamless user experiences and
+              &quot;Fueled by a passion for creating seamless user experiences and
                 products, I bring Year of Experience in software & front-end
                 development to the table, ready to make a positive impact on any
-                project."
+                project.&quot;
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <a href="https://github.com/rajraii" target="_blank">
+                  <a href="https://github.com/rajraii" target="_blank" rel="noreferrer">
                     Connect on GitHub
                   </a>
                 </button>
@@ -33,6 +33,7 @@ const Hero = () => {
                   <a
                     href="https://drive.google.com/file/d/11uyVxVMohwGUnLMwrrNl97qlAAbkg5Ch/view"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Go to CV
                   </a>
@@ -43,7 +44,7 @@ const Hero = () => {
 
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image src={logo} className={classes.hero_avatar} />
+              <Image src={logo} className={classes.hero_avatar} alt='hero img'/>
               <BgAnimation />
             </div>
           </Col>

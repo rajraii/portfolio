@@ -4,6 +4,7 @@
   padding-top: 30px;
   border-radius: 10px;
   margin-bottom: 30px;
+  width: 100%;
 }
 .port {
   background: #171f38!important;
@@ -17,9 +18,12 @@
 
 .portfolio__img {
   margin-top: 30px;
-
+  position: relative;
+  width: 100%;
+  height: 250px;
   background: transparent;
 }
+
 
 .portfolio__img img {
   border-radius: 10px;
@@ -30,8 +34,8 @@
   color: #fff;
   background: #808dad68;
   font-size: 0.7rem;
-  margin-right: 10px;
   border-radius: 5px;
+  max-height: 27px;
 }
 
 .portfolio__live {
@@ -43,6 +47,14 @@
 .portfolio__item:hover .portfolio__live {
   margin-left: 0;
   display: block;
+}
+
+.portfolio__tags {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  background: transparent;
+  height: 60px;
 }
 
 @media only screen and (max-width: 576px) {
