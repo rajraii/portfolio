@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import Logo from "../../public/images/applogo.png";
+import Logo from "./../../public/images/applogo.png";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
