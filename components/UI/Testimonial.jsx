@@ -5,9 +5,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import network from "../../public/images/Connected world.png";
 import Slider from "react-slick";
 import classes from "../../styles/testimonial.module.css";
-import test1 from "../assests/images/testimonial_1.png";
-import test2 from "../assests/images/testimonial_2.png";
-import test3 from "../assests/images/testimonial_3.png";
+
 
 const Testimonial = () => {
   const settings = {
@@ -38,7 +36,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src={test1}
+                    src={`/images/testimonial_1.png`}
                     width="50"
                     height="50"
                     className=" rounded-2"
@@ -63,7 +61,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src={test2}
+                    src={`/images/testimonial_2.png`}
                     width="50"
                     height={20}
                     className=" rounded-2"
@@ -89,7 +87,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src={test3}
+                    src={`/images/testimonial_3.png`}
                     width="50"
                     height={20}
                     className=" rounded-2"

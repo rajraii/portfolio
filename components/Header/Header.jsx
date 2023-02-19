@@ -1,9 +1,8 @@
 import React, { useRef, useEffect } from "react";
-import Logo from "../assests/images/applogo.png";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
-import Image from "next/future/image";
+import Image from "next/image";
 
 const NAV__LINK = [
   {
@@ -55,7 +54,7 @@ const Header = () => {
         <div className={`${classes.nav__wrapper}`}>
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
-            <Image src={Logo} style={{background: 'transparent', width: '100%', height: '100%'}} alt='headerimg'/>
+            <Image src={`/images/applogo.png`} style={{background: 'transparent', width: '100%', height: '100%'}} objectFit='contain' layout="fill"  alt='headerimg'/>
           </div>
 
           {/* ========= nav menu =========== */}

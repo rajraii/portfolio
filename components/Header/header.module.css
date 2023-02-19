@@ -18,6 +18,7 @@
   align-items: center;
   border-radius: 50%;
   overflow: hidden;
+  position: relative;
 }
 .nav__menu {
   display: flex;
