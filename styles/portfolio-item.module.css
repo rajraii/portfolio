@@ -11,8 +11,9 @@
 
 }
 .portfolio__item h6 {
-  color: #01d293;
+  color: #808dad;
   margin-bottom: 20px;
+  font-weight: 400;
   background: transparent;
 }
 
