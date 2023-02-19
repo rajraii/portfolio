@@ -29,7 +29,7 @@ const Testimonial = () => {
 
           <Col lg="6" md="6">
             <SectionSubtitle subtitle="Testimonials" />
-            <h4 className="mt-4 mb-5">What my colleagues say about me</h4>
+            <h4 className="mt-4 mb-5">What my team say about me</h4>
 
             <Slider {...settings}>
               <div className={`${classes.testimonial__item}`}>
