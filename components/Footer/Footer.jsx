@@ -37,7 +37,7 @@ const Footer = () => {
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>
-                Hope to ear from you soon! 🐢
+                Hope to hear from you soon! 🐢
               </p>
             </div>
           </Col>
