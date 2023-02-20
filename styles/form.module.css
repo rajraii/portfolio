@@ -19,3 +19,9 @@
 .form button {
   color: #01d293;
 }
+
+.form__button {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
