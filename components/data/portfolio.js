@@ -1,5 +1,14 @@
 const portfolio = [
   {
+    id: "11",
+    title: "ProfileX",
+    des: "ProfileX is a next-generation platform that leverages cutting-edge AI technology to transform your profile into a compelling masterpiece built using a robust tech stack that includes MongoDB for efficient schema management, React and TypeScript for the frontend, Redux for state management, and Node.js for the backend.",
+    img: "/images/profileX.png",
+    category: ["frontend", "full-stack"],
+    keyword: ["React", "NodeJs", "MongoDB", "OpenAI"],
+    liveUrl: "https://code-makers.netlify.app/",
+  },
+  {
     id: "01",
     title: "Shop99 -Food Delivery",
     des: "A two-view application Admin User with React/Redux on the frontend and Firebase on the backend that allowed users to order their favorite food with a personal cart.",

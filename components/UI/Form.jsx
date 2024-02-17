@@ -18,8 +18,6 @@ const Form = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
-          console.log(`message sent`);
           setMessage(true);
           setLoading(false)
           setTimeout(() => {
