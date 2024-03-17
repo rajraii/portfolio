@@ -1,8 +1,8 @@
 import React from "react";
-import { FaNodeJs, FaPython } from "react-icons/fa";
+import { FaAws, FaNodeJs, FaPython } from "react-icons/fa";
 import { ImCss3, ImHtmlFive } from "react-icons/im";
 import { IoLogoReact } from "react-icons/io5";
-import { SiAntdesign, SiCelery, SiDjango, SiExpress, SiMongodb, SiRedux, SiTypescript } from "react-icons/si";
+import { SiAntdesign, SiDjango, SiExpress, SiMongodb, SiRedux, SiTypescript } from "react-icons/si";
 import { TbBrandBootstrap, TbBrandFirebase, TbBrandNextjs } from "react-icons/tb";
 import { Col, Container, Row } from "reactstrap";
 import classes from "../../styles/services.module.css";
@@ -19,7 +19,7 @@ const Services = () => {
               <div>
                 <ServicesItem title="Web Development" icon="ri-apps-line" />
 
-                <ServicesItem title="User Experience" icon="ri-computer-line" />
+                <ServicesItem title="Full stack Development" icon="ri-computer-line" />
               </div>
 
               <ServicesItem
@@ -155,8 +155,8 @@ const Services = () => {
                 <h6
                   className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
                 >
-                  <SiCelery className={`${classes.about__icon}`} />
-                  NodeJs
+                  <FaAws className={`${classes.about__icon}`} />
+                  AWS
                 </h6>
               </Col>
 
