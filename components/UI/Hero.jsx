@@ -31,7 +31,7 @@ const Hero = () => {
 
                 <button className="secondary__btn">
                   <a
-                    href="https://drive.google.com/file/d/11uyVxVMohwGUnLMwrrNl97qlAAbkg5Ch/view"
+                    href="https://drive.google.com/file/d/1IdI6lnJob0TrRl1Su7g0GX1GH8HIUr97/view"
                     target="_blank"
                     rel="noreferrer"
                   >
