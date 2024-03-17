@@ -3,7 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['tmdb.org', 'themoviedb.org'],
+    domains: ['tmdb.org', 'themoviedb.org', 'github.com'],
+    
   },
 }
 

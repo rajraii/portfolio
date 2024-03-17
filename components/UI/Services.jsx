@@ -1,13 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import SectionSubtitle from "./SectionSubtitle";
-import classes from "../../styles/services.module.css";
-import ServicesItem from "./ServicesItem";
-import { SiExpress, SiMongodb, SiRedux, SiTypescript } from "react-icons/si";
-import { IoLogoReact } from "react-icons/io5";
-import { FaNodeJs } from "react-icons/fa";
-import { TbBrandBootstrap, TbBrandFirebase, TbBrandNextjs } from "react-icons/tb";
+import { FaNodeJs, FaPython } from "react-icons/fa";
 import { ImCss3, ImHtmlFive } from "react-icons/im";
+import { IoLogoReact } from "react-icons/io5";
+import { SiAntdesign, SiCelery, SiDjango, SiExpress, SiMongodb, SiRedux, SiTypescript } from "react-icons/si";
+import { TbBrandBootstrap, TbBrandFirebase, TbBrandNextjs } from "react-icons/tb";
+import { Col, Container, Row } from "reactstrap";
+import classes from "../../styles/services.module.css";
+import SectionSubtitle from "./SectionSubtitle";
+import ServicesItem from "./ServicesItem";
 
 const Services = () => {
   return (
@@ -51,14 +51,6 @@ const Services = () => {
                   HTML5
                 </h6>
 
-                <h6
-                  className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
-                >
-                  <span className={`${classes.about__icon}`}>
-                    <TbBrandBootstrap />
-                  </span>
-                  Bootstrap
-                </h6>
 
                 <h6
                   className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
@@ -67,6 +59,22 @@ const Services = () => {
                     <ImCss3 />
                   </span>
                   CSS3
+                </h6>
+                <h6
+                  className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
+                >
+                  <span className={`${classes.about__icon}`}>
+                    <TbBrandBootstrap />
+                  </span>
+                  Bootstrap
+                </h6>
+                <h6
+                  className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
+                >
+                  <span className={`${classes.about__icon}`}>
+                  <SiAntdesign />
+                  </span>
+                  AntD
                 </h6>
               </Col>
 
@@ -106,6 +114,15 @@ const Services = () => {
                   className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
                 >
                   <span className={`${classes.about__icon}`}>
+                  <FaPython />
+                  </span>
+                  Python
+                </h6>
+
+                <h6
+                  className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
+                >
+                  <span className={`${classes.about__icon}`}>
                     <IoLogoReact />
                   </span>
                   ReactJs
@@ -133,6 +150,12 @@ const Services = () => {
                   className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
                 >
                   <FaNodeJs className={`${classes.about__icon}`} />
+                  NodeJs
+                </h6>
+                <h6
+                  className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
+                >
+                  <SiCelery className={`${classes.about__icon}`} />
                   NodeJs
                 </h6>
               </Col>
@@ -164,6 +187,15 @@ const Services = () => {
                   </span>
                   Firebase
                 </h6>
+                <h6
+                  className={` d-flex align-items-center gap-2 mt-3 fw-normal ${classes.skills_icon}`}
+                >
+                  <span className={`${classes.about__icon}`}>
+                    <SiDjango />
+                  </span>
+                  Django
+                </h6>
+                
               </Col>
             </Row>
           </Col>
