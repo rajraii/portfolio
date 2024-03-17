@@ -3,6 +3,7 @@ import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import profileImage from "../../public/images/appLogo.png";
 
 const NAV__LINK = [
   {
@@ -54,7 +55,7 @@ const Header = () => {
         <div className={`${classes.nav__wrapper}`}>
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
-            <Image src={`/images/applogo.png`} style={{background: 'transparent', width: '100%', height: '100%'}} objectFit='contain' layout="fill"  alt='headerimg'/>
+            <Image src={profileImage} style={{background: 'transparent', width: '100%', height: '100%'}} objectFit='contain' layout="fill"  alt='headerimg'/>
           </div>
 
           {/* ========= nav menu =========== */}
